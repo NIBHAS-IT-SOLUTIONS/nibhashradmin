@@ -1,0 +1,80 @@
+.jobpostcontainer {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    max-width: 700px;
+    width: 100%;
+    padding: 70px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.405);
+
+}
+.posttitle{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+   
+}
+.gselectbox{
+ gap: 10px;
+  
+}
+.input-box1 {
+   gap: 1rem;
+    padding: .5rem;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.input-box1 input{
+   
+   font-weight: bolder;
+   width: 20px;
+   height: 20px;
+}
+.gselectbox p {
+    font-size: 18px;
+}
+form .input-box{
+    padding: 10px;
+}
+.input-box span{
+    margin-right: 10px;
+    font-weight: 400;
+}
+.input-box input{
+ border-radius: 10px;
+ border: 1px solid;
+}
+.input-box p{
+    color: black;
+    font-weight: 300;
+}
+form textarea{
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    resize: none;
+    text-align: center;
+}
+form .buttons{
+    height: 50px;
+    width: 260px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; 
+}
+.btn-lg{
+    height: 50px;
+    width: 260px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+   
+}

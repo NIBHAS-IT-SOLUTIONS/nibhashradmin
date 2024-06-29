@@ -1,0 +1,9 @@
+.allemployerbackbutton{
+    width: 8rem;
+    padding: 1rem;
+  font-size: medium;
+  background-color: #1A8DB0;
+  border-radius: 30px;
+  color: #fff;
+  border: none;
+}

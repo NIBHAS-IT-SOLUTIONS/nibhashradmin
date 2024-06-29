@@ -1,0 +1,64 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+
+a {
+
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+.nav {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 15vh;
+  background: rgb(0, 33, 65);
+
+}
+
+.nav__brand {
+
+  font-size: xx-large;
+  text-transform: uppercase;
+}
+.allemployerbutton{
+  padding: 1rem;
+  font-size: medium;
+  background-color: #1A8DB0;
+  border-radius: 30px;
+  color: #fff;
+  border: none;
+}
+
+
+@media screen and (max-width: 768px) {
+ 
+
+ 
+
+  .nav__brand {
+    font-size: large;
+  }
+  .nav{
+    width: 100%;
+  }
+}
+
+
+/* Toggle Icon Animation */

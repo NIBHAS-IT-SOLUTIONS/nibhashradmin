@@ -1,0 +1,44 @@
+.allemployercard {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    float: left;
+    height: 30rem;
+    width: 50rem;
+    padding: 25px;
+    border: 2px rgba(26, 141, 176, 0.349)solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(191, 232, 246);
+
+}
+
+.allemployercard ul {
+
+    align-items: center;
+    margin-left: -28px;
+
+}
+
+.allemployercard ul li {
+    font-weight: normal;
+    font-size: medium;
+    line-height: 4rem;
+}
+.employercardbutton{
+  background-color: #FF004D;
+  font-size: medium;
+  padding: .5rem;
+  color: white;
+  cursor: pointer;
+    border-radius: 30px;
+    width: 8rem;
+    border: none;
+}
+.employercardbutton:hover{
+    background-color: #ff004cb3;
+}
+@media screen and (max-width: 768px){
+    .allemployercard{
+        width: 40rem;
+    }
+}
